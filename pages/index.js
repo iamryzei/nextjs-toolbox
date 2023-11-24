@@ -13,54 +13,80 @@ export default function Home() {
       <main>
         <Header title="Privacy Policy" />
         <hr />
-        <p className="privacy-policy">
-          This is the privacy policy text. Please review our privacy policy to understand how we collect, use, and protect your personal information.
-         Privacy Policy for Watchify
+        <div className="privacy-policy">
+          <p>
+            This is the privacy policy text. Please review our privacy policy to understand how we collect, use, and protect your personal information.
+          </p>
 
-Last updated: 24/11/2023
+          <h2>Privacy Policy for Watchify</h2>
 
-This Privacy Policy describes how Watchify ("we," "us," or "our") collects, uses, and shares information when you use our mobile application "Watchify" (the "App"). By using the App, you agree to the terms and conditions outlined in this Privacy Policy.
+          <p>
+            Last updated: 24/11/2023
+          </p>
 
-Information We Collect
-Personal Information
-We may collect certain personally identifiable information, including but not limited to:
+          <p>
+            This Privacy Policy describes how Watchify ("we," "us," or "our") collects, uses, and shares information when you use our mobile application "Watchify" (the "App"). By using the App, you agree to the terms and conditions outlined in this Privacy Policy.
+          </p>
 
-Account Information: When you create an account with Watchify, we collect your username, email address, and password.
+          <h3>Information We Collect</h3>
 
-Usage Data: We may collect information on how you use the App, such as your watch history, preferences, and interactions with the App.
+          <h4>Personal Information</h4>
+          <p>
+            We may collect certain personally identifiable information, including but not limited to:
+          </p>
+          <ul>
+            <li>Account Information: When you create an account with Watchify, we collect your username, email address, and password.</li>
+            <li>Usage Data: We may collect information on how you use the App, such as your watch history, preferences, and interactions with the App.</li>
+          </ul>
 
-Non-Personal Information
-We may also collect non-personal information that does not directly identify you. This includes:
+          <h4>Non-Personal Information</h4>
+          <p>
+            We may also collect non-personal information that does not directly identify you. This includes:
+          </p>
+          <ul>
+            <li>Device Information: We collect information about the device you use to access the App, such as the device type, operating system, and unique device identifiers.</li>
+            <li>Log Data: We automatically collect log information when you use the App, including your IP address, browser type, and the pages you visit.</li>
+          </ul>
 
-Device Information: We collect information about the device you use to access the App, such as the device type, operating system, and unique device identifiers.
+          <h3>How We Use Your Information</h3>
+          <p>
+            We use the collected information for the following purposes:
+          </p>
+          <ul>
+            <li>To provide and maintain the App.</li>
+            <li>To improve, personalize, and optimize the App.</li>
+            <li>To analyze usage patterns and trends.</li>
+            <li>To send you updates, notifications, and promotional messages related to the App.</li>
+          </ul>
 
-Log Data: We automatically collect log information when you use the App, including your IP address, browser type, and the pages you visit.
+          <h3>Information Sharing</h3>
+          <p>
+            We may share your information with third parties only in the following circumstances:
+          </p>
+          <ul>
+            <li>With your consent.</li>
+            <li>To comply with legal obligations.</li>
+            <li>To protect and defend our rights and property.</li>
+          </ul>
 
-How We Use Your Information
-We use the collected information for the following purposes:
+          <h3>Security</h3>
+          <p>
+            We take reasonable measures to protect your personal information from unauthorized access or disclosure.
+          </p>
 
-To provide and maintain the App.
-To improve, personalize, and optimize the App.
-To analyze usage patterns and trends.
-To send you updates, notifications, and promotional messages related to the App.
-Information Sharing
-We may share your information with third parties only in the following circumstances:
+          <h3>Children's Privacy</h3>
+          <p>
+            Watchify is intended for users above the age of 13. We do not knowingly collect personal information from children under 13. If you believe that we have collected information from a child under 13, please contact us immediately.
+          </p>
 
-With your consent.
-To comply with legal obligations.
-To protect and defend our rights and property.
-Security
-We take reasonable measures to protect your personal information from unauthorized access or disclosure.
+          <h3>Changes to This Privacy Policy</h3>
+          <p>
+            We reserve the right to update our Privacy Policy. Any changes will be effective upon posting the revised policy on the App.
+          </p>
 
-Children's Privacy
-Watchify is intended for users above the age of 13. We do not knowingly collect personal information from children under 13. If you believe that we have collected information from a child under 13, please contact us immediately.
-
-Changes to This Privacy Policy
-We reserve the right to update our Privacy Policy. Any changes will be effective upon posting the revised policy on the App.
-
-Contact Us
-If you have any questions or concerns about our Privacy Policy, please contact us at [your contact email].
-        </p>
+          <h3>Contact Us</h3>
+          <p>If you have any questions or concerns about our Privacy Policy, please contact us at [your contact email].</p>
+        </div>
       </main>
       <Footer />
     </div>
